@@ -90,3 +90,20 @@ min-height: 70vh;
 .button:hover{
     background: #a0d826;
 }
+
+@keyframes colorchange {
+from{background-color: #c6c905;}
+25%{background-color: aqua;}
+to{background-color: rgb(140, 6, 218);}
+
+}
+.rectangle{
+    width: 200px;
+    height: 80px;
+    background-color: #000;
+    animation-name:colorchange;
+    animation-duration:3s;
+    animation-iteration-count:10;
+    animation-direction:normal;
+    }
+    
